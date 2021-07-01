@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/cybercom-finland/iz-design-system/compare/v1.0.1...v1.0.2) (2021-07-01)
+
+
+### Bug Fixes
+
+* added new logo svg ([6d8a20d](https://github.com/cybercom-finland/iz-design-system/commit/6d8a20de21094c31185032c381bdcd46604ad8ab))
+
 ## [1.0.1](https://github.com/cybercom-finland/iz-design-system/compare/v1.0.0...v1.0.1) (2021-07-01)
 
 
