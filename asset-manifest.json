@@ -1,0 +1,29 @@
+{
+  "files": {
+    "0.ab8342b5.iframe.bundle.js": "./0.ab8342b5.iframe.bundle.js",
+    "main.js": "./main.8cb37aef.iframe.bundle.js",
+    "runtime~main.js": "./runtime~main.95218da6.iframe.bundle.js",
+    "vendors~main.js": "./vendors~main.78dae4b3.iframe.bundle.js",
+    "vendors~main.js.map": "./vendors~main.78dae4b3.iframe.bundle.js.map",
+    "4.4a87b212.iframe.bundle.js": "./4.4a87b212.iframe.bundle.js",
+    "4.4a87b212.iframe.bundle.js.map": "./4.4a87b212.iframe.bundle.js.map",
+    "5.632b0867.iframe.bundle.js": "./5.632b0867.iframe.bundle.js",
+    "6.a1a01144.iframe.bundle.js": "./6.a1a01144.iframe.bundle.js",
+    "6.a1a01144.iframe.bundle.js.map": "./6.a1a01144.iframe.bundle.js.map",
+    "7.d7ce2bc9.iframe.bundle.js": "./7.d7ce2bc9.iframe.bundle.js",
+    "4.4a87b212.iframe.bundle.js.LICENSE.txt": "./4.4a87b212.iframe.bundle.js.LICENSE.txt",
+    "6.a1a01144.iframe.bundle.js.LICENSE.txt": "./6.a1a01144.iframe.bundle.js.LICENSE.txt",
+    "iframe.html": "./iframe.html",
+    "static/media/AcmeCorp.29c033b9.svg": "./static/media/AcmeCorp.29c033b9.svg",
+    "static/media/CgLogo.80326295.svg": "./static/media/CgLogo.80326295.svg",
+    "static/media/Star.f9ff9167.svg": "./static/media/Star.f9ff9167.svg",
+    "static/media/SterlingCooper.af2af17a.svg": "./static/media/SterlingCooper.af2af17a.svg",
+    "static/media/chart.0fae27c4.svg": "./static/media/chart.0fae27c4.svg",
+    "vendors~main.78dae4b3.iframe.bundle.js.LICENSE.txt": "./vendors~main.78dae4b3.iframe.bundle.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "runtime~main.95218da6.iframe.bundle.js",
+    "vendors~main.78dae4b3.iframe.bundle.js",
+    "main.8cb37aef.iframe.bundle.js"
+  ]
+}
