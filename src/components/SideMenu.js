@@ -27,7 +27,7 @@ const SideMenuContainer = styled.div`
 const Logo = styled.div`
   margin-top: 20px;
   margin-left: 25px;
-  width: 24px;
+  width: 65px;
 `;
 
 const ContentContainer = styled.div`
