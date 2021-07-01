@@ -1,7 +1,7 @@
 {
   "files": {
     "0.ab8342b5.iframe.bundle.js": "./0.ab8342b5.iframe.bundle.js",
-    "main.js": "./main.492f8060.iframe.bundle.js",
+    "main.js": "./main.b3b9f66a.iframe.bundle.js",
     "runtime~main.js": "./runtime~main.95218da6.iframe.bundle.js",
     "vendors~main.js": "./vendors~main.911fbfe8.iframe.bundle.js",
     "vendors~main.js.map": "./vendors~main.911fbfe8.iframe.bundle.js.map",
@@ -15,7 +15,7 @@
     "6.a1a01144.iframe.bundle.js.LICENSE.txt": "./6.a1a01144.iframe.bundle.js.LICENSE.txt",
     "iframe.html": "./iframe.html",
     "static/media/AcmeCorp.29c033b9.svg": "./static/media/AcmeCorp.29c033b9.svg",
-    "static/media/CgLogo.966f30ef.svg": "./static/media/CgLogo.966f30ef.svg",
+    "static/media/CgLogo.af2d38d0.svg": "./static/media/CgLogo.af2d38d0.svg",
     "static/media/Star.f9ff9167.svg": "./static/media/Star.f9ff9167.svg",
     "static/media/SterlingCooper.af2af17a.svg": "./static/media/SterlingCooper.af2af17a.svg",
     "static/media/chart.0fae27c4.svg": "./static/media/chart.0fae27c4.svg",
@@ -24,6 +24,6 @@
   "entrypoints": [
     "runtime~main.95218da6.iframe.bundle.js",
     "vendors~main.911fbfe8.iframe.bundle.js",
-    "main.492f8060.iframe.bundle.js"
+    "main.b3b9f66a.iframe.bundle.js"
   ]
 }
