@@ -1,5 +1,5 @@
 import React from "react";
-import {CustomerCards} from "../CustomerCards";
+import { CustomerCards } from "../CustomerCards";
 import {
   JiraStatsAcme1,
   JiraStatsAcme2,

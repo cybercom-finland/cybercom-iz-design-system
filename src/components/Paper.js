@@ -13,7 +13,12 @@ const PaperContainer = styled.div`
 
 export function Paper({ width, height, background, children, ...props }) {
   return (
-    <PaperContainer width={width} height={height} background={background} {...props}>
+    <PaperContainer
+      width={width}
+      height={height}
+      background={background}
+      {...props}
+    >
       {children}
     </PaperContainer>
   );
@@ -28,5 +33,5 @@ Paper.propTypes = {
 Paper.defaultProps = {
   width: "200px",
   height: "100px",
-  background: "#ffffff"
+  background: "#ffffff",
 };

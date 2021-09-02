@@ -7,8 +7,7 @@ export const figmaLinks = {
     "https://www.figma.com/file/9jPzp0I5Z0PMBZEKw9AG5F/Cybercom-Servicereport?node-id=879%3A435",
   modal:
     "https://www.figma.com/file/9jPzp0I5Z0PMBZEKw9AG5F/Cybercom-Servicereport?node-id=187%3A2462",
-  tab:
-    "https://www.figma.com/file/9jPzp0I5Z0PMBZEKw9AG5F/Cybercom-Servicereport?node-id=182%3A133",
+  tab: "https://www.figma.com/file/9jPzp0I5Z0PMBZEKw9AG5F/Cybercom-Servicereport?node-id=182%3A133",
   checkbox:
     "https://www.figma.com/file/9jPzp0I5Z0PMBZEKw9AG5F/Cybercom-Servicereport?node-id=182%3A70",
   table:

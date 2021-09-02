@@ -32,7 +32,6 @@ const StyledCheckbox = styled.div`
   justify-content: center;
   align-items: center;
 
-
   ${(props) =>
     props.isDisabled &&
     (props.isChecked || props.isIndeterminate) &&
@@ -152,7 +151,6 @@ export function Checkbox({
         forceFocus={forceFocus}
         showIcon={isChecked || isIndeterminate}
         onClick={onClick}
-        
       >
         {isIndeterminate ? (
           <Icon icon="indeterminate" fill="white" aria-hidden />

@@ -3,7 +3,7 @@ import { SideMenu } from "../components/SideMenu";
 import styled from "styled-components";
 import { TabServiceReport } from "../components/Tab.ServiceReport";
 import { colors, typography } from "../shared/styles";
-import {Chart}  from "../shared/logos/chart.svg";
+import { Chart } from "../shared/logos/chart.svg";
 import { JiraStatsServiceReport } from "./Reports/JiraStats/JiraStatsServiceReport";
 import { KammiSlasServiceReport } from "./Reports/KaemmiSlas/KaemmiSlaServiceReport";
 import { SDFeedbackServiceReport } from "./Reports/SDFeedback/SDFeedbackServiceReport";
@@ -79,7 +79,7 @@ export const ServiceReport = () => {
       <RightContainer>
         <Title>Service Report</Title>
         <SubTitleContainer>
-          <img src={Chart} alt="Chart"/>
+          <img src={Chart} alt="Chart" />
           <SubTitle>SLA reporting service</SubTitle>
         </SubTitleContainer>
         <TabContainer>

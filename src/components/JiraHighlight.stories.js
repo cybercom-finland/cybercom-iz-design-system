@@ -78,8 +78,7 @@ JiraHighlights.story = {
   parameters: {
     design: {
       type: "figma",
-      url:
-        figmaLinks.jiraHighlights,
+      url: figmaLinks.jiraHighlights,
     },
   },
 };

@@ -1,12 +1,24 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 import PropTypes from "prop-types";
-import styled from 'styled-components';
-import {ElementType} from './TypographyElementType';
+import styled from "styled-components";
+import { ElementType } from "./TypographyElementType";
 import { Icon } from "./Icon";
 
-export function Typography ({type, size, weight, withIcon, text, iconRight, iconName}) {
+export function Typography({
+  type,
+  size,
+  weight,
+  withIcon,
+  text,
+  iconRight,
+  iconName,
+}) {
   const [tagType, setTagType] = useState("body1");
-  useEffect(() => { if(type !== undefined) {setTagType(type)}},[]); 
+  useEffect(() => {
+    if (type !== undefined) {
+      setTagType(type);
+    }
+  }, []);
 
   const TagType = type ? ElementType[tagType].htmlTag : "body1";
   const fontSize = size ? `${ElementType[tagType].defaultSize}` : "16px";
@@ -25,19 +37,24 @@ export function Typography ({type, size, weight, withIcon, text, iconRight, icon
     margin-block-end: 0em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    margin-${iconRight ? 'right' : 'left'}: 5px;
+    margin-${iconRight ? "right" : "left"}: 5px;
     display: flex;
     align-self: center;
   }
   `;
-  return(
+  return (
     <>
-      { withIcon ? <StyledTypographyWithIcon className={iconRight ? "icon-right": ""}><Icon icon={iconName} /><StyledTypography>{text}</StyledTypography></StyledTypographyWithIcon> : 
+      {withIcon ? (
+        <StyledTypographyWithIcon className={iconRight ? "icon-right" : ""}>
+          <Icon icon={iconName} />
+          <StyledTypography>{text}</StyledTypography>
+        </StyledTypographyWithIcon>
+      ) : (
         <StyledTypography>{text}</StyledTypography>
-        }      
-    </>  
+      )}
+    </>
   );
-};
+}
 
 Typography.propTypes = {
   type: PropTypes.string,
@@ -45,7 +62,7 @@ Typography.propTypes = {
   weight: PropTypes.string,
   withIcon: PropTypes.bool,
   iconRight: PropTypes.bool,
-  text:PropTypes.string
+  text: PropTypes.string,
 };
 
 Typography.defaultProps = {
@@ -54,5 +71,5 @@ Typography.defaultProps = {
   weight: "400",
   withIcon: false,
   iconRight: false,
-  text:"Just some text"
-}
+  text: "Just some text",
+};

@@ -223,7 +223,9 @@ export function CustomerContent() {
                   }
                   isTreeNode={level1.tree !== undefined}
                   isTreeOpen={level1.treeOpen}
-                  isIndeterminate={(level1.tree !== undefined) && level1.indeterminate}
+                  isIndeterminate={
+                    level1.tree !== undefined && level1.indeterminate
+                  }
                   onArrowClick={() =>
                     dispatch({
                       type: SIDE_MENU_ACTIONS.TOGGLE_SUBTREE,
@@ -250,7 +252,9 @@ export function CustomerContent() {
                           }
                           isTreeNode={level2.tree !== undefined}
                           isTreeOpen={level2.treeOpen}
-                          isIndeterminate={(level2.tree !== undefined) && level2.indeterminate}
+                          isIndeterminate={
+                            level2.tree !== undefined && level2.indeterminate
+                          }
                           onArrowClick={() =>
                             dispatch({
                               type: SIDE_MENU_ACTIONS.TOGGLE_SUBTREE,
@@ -270,8 +274,7 @@ export function CustomerContent() {
                                 isChecked={level3.checked}
                                 onClick={() =>
                                   dispatch({
-                                    type:
-                                      SIDE_MENU_ACTIONS.TOGGLE_CUSTOMER_CHECKMARK,
+                                    type: SIDE_MENU_ACTIONS.TOGGLE_CUSTOMER_CHECKMARK,
                                     payload: level3.id,
                                   })
                                 }

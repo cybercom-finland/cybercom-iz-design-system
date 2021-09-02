@@ -1,7 +1,7 @@
-import { createGlobalStyle, css } from 'styled-components';
-import { color, typography } from './styles';
+import { createGlobalStyle, css } from "styled-components";
+import { color, typography } from "./styles";
 export const bodyStyles = css`
-  font-family: "${typography.type.primary}",sans-serif;
+  font-family: "${typography.type.primary}", sans-serif;
   font-size: ${typography.size.s3};
   color: ${color.darkest};
 

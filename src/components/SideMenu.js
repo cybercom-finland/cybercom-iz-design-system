@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import { colors, typography, device } from "../shared/styles";
 import { Icon } from "./Icon";
-import CyberLogo  from "../shared/logos/CgLogo.svg";
+import CyberLogo from "../shared/logos/CgLogo.svg";
 import { useMediaQuery } from "react-responsive";
 import { MenuContent } from "./SideMenuContent";
 

@@ -1,6 +1,6 @@
 import React from "react";
-import ACLogo  from "../shared/logos/AcmeCorp.svg";
-import  SCLogo from "../shared/logos/SterlingCooper.svg";
+import ACLogo from "../shared/logos/AcmeCorp.svg";
+import SCLogo from "../shared/logos/SterlingCooper.svg";
 import { CUSTOMERCARD_TYPES } from "./CustomerCard";
 import { colors } from "../shared/styles";
 
@@ -8,7 +8,7 @@ import { colors } from "../shared/styles";
 
 export const JiraStatsAcme1 = {
   type: CUSTOMERCARD_TYPES.JIRA_STATS,
-  logo: <img src={ACLogo} alt="ACLogo"/>,
+  logo: <img src={ACLogo} alt="ACLogo" />,
   backgroundColor: colors.primary.CCBlue,
   dividerColor: colors.secondary.CCDarkBlue,
   totalLabel: "Total tickets",
@@ -61,7 +61,7 @@ export const JiraStatsAcme1 = {
 
 export const JiraStatsAcme2 = {
   type: CUSTOMERCARD_TYPES.JIRA_STATS,
-  logo: <img src={ACLogo} alt="ACLogo"/>,
+  logo: <img src={ACLogo} alt="ACLogo" />,
   backgroundColor: colors.primary.CCBlue,
   dividerColor: colors.secondary.CCDarkBlue,
   totalLabel: "Total tickets",
@@ -114,7 +114,7 @@ export const JiraStatsAcme2 = {
 
 export const JiraStatsAcme3 = {
   type: CUSTOMERCARD_TYPES.JIRA_STATS,
-  logo: <img src={ACLogo} alt="ACLogo"/>,
+  logo: <img src={ACLogo} alt="ACLogo" />,
   backgroundColor: colors.primary.CCBlue,
   dividerColor: colors.secondary.CCDarkBlue,
   totalLabel: "Total tickets",
@@ -167,7 +167,7 @@ export const JiraStatsAcme3 = {
 
 export const JiraStatsSterling1 = {
   type: CUSTOMERCARD_TYPES.JIRA_STATS,
-  logo: <img src={SCLogo} alt="SCLogo"/>,
+  logo: <img src={SCLogo} alt="SCLogo" />,
   backgroundColor: colors.primary.CCPurple,
   dividerColor: colors.secondary.CCDarkPurple,
   totalLabel: "Total tickets",
@@ -220,7 +220,7 @@ export const JiraStatsSterling1 = {
 
 export const JiraStatsSterling2 = {
   type: CUSTOMERCARD_TYPES.JIRA_STATS,
-  logo: <img src={SCLogo} alt="SCLogo"/>,
+  logo: <img src={SCLogo} alt="SCLogo" />,
   backgroundColor: colors.primary.CCPurple,
   dividerColor: colors.secondary.CCDarkPurple,
   totalLabel: "Total tickets",
@@ -273,7 +273,7 @@ export const JiraStatsSterling2 = {
 
 export const JiraStatsWayne = {
   type: CUSTOMERCARD_TYPES.JIRA_STATS,
-  logo: <img src={SCLogo} alt="SCLogo"/>,
+  logo: <img src={SCLogo} alt="SCLogo" />,
   backgroundColor: colors.primary.CCPurple,
   dividerColor: colors.secondary.CCDarkPurple,
   totalLabel: "Total tickets",
@@ -328,7 +328,7 @@ export const JiraStatsWayne = {
 
 export const SDFeedbackData0 = {
   type: CUSTOMERCARD_TYPES.SD_FEEDBACK,
-  logo: <img src={ACLogo} alt="ACLogo"/>,
+  logo: <img src={ACLogo} alt="ACLogo" />,
   backgroundColor: colors.primary.CCBlue,
   dividerColor: colors.secondary.CCDarkBlue,
   totalLabel: "Feedback",
@@ -343,7 +343,7 @@ export const SDFeedbackData0 = {
 
 export const SDFeedbackData1 = {
   type: CUSTOMERCARD_TYPES.SD_FEEDBACK,
-  logo: <img src={ACLogo} alt="ACLogo"/>,
+  logo: <img src={ACLogo} alt="ACLogo" />,
   backgroundColor: colors.primary.CCBlue,
   dividerColor: colors.secondary.CCDarkBlue,
   totalLabel: "Feedback",
@@ -365,7 +365,7 @@ export const SDFeedbackData1 = {
 
 export const SDFeedbackData2 = {
   type: CUSTOMERCARD_TYPES.SD_FEEDBACK,
-  logo: <img src={ACLogo} alt="ACLogo"/>,
+  logo: <img src={ACLogo} alt="ACLogo" />,
   backgroundColor: colors.primary.CCBlue,
   dividerColor: colors.secondary.CCDarkBlue,
   totalLabel: "Feedback",
@@ -380,15 +380,14 @@ export const SDFeedbackData2 = {
       jiraCode: "OPSSOK-968",
       jiraLink: "",
       stars: 4,
-      text:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
   ],
 };
 
 export const SDFeedbackData3 = {
   type: CUSTOMERCARD_TYPES.SD_FEEDBACK,
-  logo: <img src={ACLogo} alt="ACLogo"/>,
+  logo: <img src={ACLogo} alt="ACLogo" />,
   backgroundColor: colors.primary.CCPurple,
   dividerColor: colors.secondary.CCDarkPurple,
   totalLabel: "Feedback",
@@ -409,15 +408,14 @@ export const SDFeedbackData3 = {
       jiraCode: "OPSSOK-969",
       jiraLink: "",
       stars: 4,
-      text:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
   ],
 };
 
 export const SDFeedbackData4 = {
   type: CUSTOMERCARD_TYPES.SD_FEEDBACK,
-  logo: <img src={ACLogo} alt="ACLogo"/>,
+  logo: <img src={ACLogo} alt="ACLogo" />,
   backgroundColor: colors.primary.CCPurple,
   dividerColor: colors.secondary.CCDarkPurple,
   totalLabel: "Feedback",
@@ -438,8 +436,7 @@ export const SDFeedbackData4 = {
       jiraCode: "OPSSOK-969",
       jiraLink: "",
       stars: 4,
-      text:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
   ],
 };
@@ -466,7 +463,7 @@ const buildSlas = () => {
 
 export const KammiSC1 = {
   type: CUSTOMERCARD_TYPES.KAMMI,
-  logo: <img src={SCLogo} alt="SCLogo"/>,
+  logo: <img src={SCLogo} alt="SCLogo" />,
   backgroundColor: colors.primary.CCBlue,
   dividerColor: colors.secondary.CCDarkBlue,
   totalLabel: "Average SLA",
@@ -481,7 +478,7 @@ export const KammiSC1 = {
 
 export const KammiSC2 = {
   type: CUSTOMERCARD_TYPES.KAMMI,
-  logo: <img src={SCLogo} alt="SCLogo"/>,
+  logo: <img src={SCLogo} alt="SCLogo" />,
   backgroundColor: colors.primary.CCBlue,
   dividerColor: colors.secondary.CCDarkBlue,
   totalLabel: "Average SLA",
@@ -496,7 +493,7 @@ export const KammiSC2 = {
 
 export const KammiSC3 = {
   type: CUSTOMERCARD_TYPES.KAMMI,
-  logo: <img src={SCLogo} alt="SCLogo"/>,
+  logo: <img src={SCLogo} alt="SCLogo" />,
   backgroundColor: colors.primary.CCBlue,
   dividerColor: colors.secondary.CCDarkBlue,
   totalLabel: "Average SLA",
@@ -511,7 +508,7 @@ export const KammiSC3 = {
 
 export const KammiSC4 = {
   type: CUSTOMERCARD_TYPES.KAMMI,
-  logo: <img src={SCLogo} alt="SCLogo"/>,
+  logo: <img src={SCLogo} alt="SCLogo" />,
   backgroundColor: colors.primary.CCPurple,
   dividerColor: colors.secondary.CCDarkPurple,
   totalLabel: "Average SLA",
@@ -526,7 +523,7 @@ export const KammiSC4 = {
 
 export const KammiSC5 = {
   type: CUSTOMERCARD_TYPES.KAMMI,
-  logo: <img src={SCLogo} alt="SCLogo"/>,
+  logo: <img src={SCLogo} alt="SCLogo" />,
   backgroundColor: colors.primary.CCBlue,
   dividerColor: colors.secondary.CCDarkBlue,
   totalLabel: "Average SLA",
