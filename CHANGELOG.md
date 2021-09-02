@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/cybercom-finland/iz-design-system/compare/v1.0.2...v1.0.3) (2021-09-02)
+
+
+### Bug Fixes
+
+* Added colors to styles and eslint format to all files ([0ed62c0](https://github.com/cybercom-finland/iz-design-system/commit/0ed62c0009404d56a43f200c3443658ddbd9f462))
+
 ## [1.0.2](https://github.com/cybercom-finland/iz-design-system/compare/v1.0.1...v1.0.2) (2021-07-01)
 
 
