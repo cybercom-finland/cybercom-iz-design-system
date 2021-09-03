@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/cybercom-finland/iz-design-system/compare/v1.0.3...v1.0.4) (2021-09-03)
+
+
+### Bug Fixes
+
+* added maxRows property to the table component ([c14fe53](https://github.com/cybercom-finland/iz-design-system/commit/c14fe535c7ee3044cd1aa6c5cb68bfe766ed0974))
+
 ## [1.0.3](https://github.com/cybercom-finland/iz-design-system/compare/v1.0.2...v1.0.3) (2021-09-02)
 
 
