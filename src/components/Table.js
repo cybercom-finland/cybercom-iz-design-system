@@ -168,12 +168,12 @@ dd {
   margin-inline-start: 0 !important;
   &.issue-key {
     font-weight: ${typography.weight.semibold};
-    color:${colors.neutral.Gray1}
+    color:${colors.neutral.Gray1};
     text-decoration: underline;
   }
   &.response-time {
-    color: ${colors.semantic.CCRed}
-    font-weight: ${typography.weight.bold}
+    color: ${colors.semantic.CCRed};
+    font-weight: ${typography.weight.bold};
   }
   &.issue-key,
   &.response-time,
@@ -311,7 +311,8 @@ export function Table(props) {
   };
 
   const [currentPage, setCurrentPage] = useState({ value: "1", label: "1" });
-  const [rowsPerPage, setRowsPerPage] = useState({ value: "5", label: "5" });
+  const [maxRowsPerPage, setMaxRowsPerPage] = useState(props.maxRows || 5);
+  const [rowsPerPage, setRowsPerPage] = useState({ value: maxRowsPerPage, label: maxRowsPerPage });
   const currentPageValue = parseInt(currentPage.value);
   const rowsPerPageValue = parseInt(rowsPerPage.value);
   const lastRowIndex = currentPageValue * rowsPerPageValue;
@@ -446,11 +447,11 @@ export function Table(props) {
           </thead>
           <tbody>{renderItems("fullscreen")}</tbody>
         </StyledTable>
-        {props.data.length > 5 && pagination}
+        {props.data.length > maxRowsPerPage && pagination}
       </TableContainer>
       <ResponsiveDataGrid>
         {renderItems("mobile")}
-        {props.data.length > 5 && (
+        {props.data.length > maxRowsPerPage && (
           <>
             <hr className="pagination-separator" /> {pagination}
           </>
